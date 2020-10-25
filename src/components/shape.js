@@ -1,5 +1,5 @@
 // declare class
-class Shape {
+export default class Shape {
   constructor(color) {
     this.color = color;
   }
