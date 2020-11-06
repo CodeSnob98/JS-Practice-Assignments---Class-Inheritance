@@ -1,8 +1,8 @@
 // import using require
-import Shape from "./shape";
+let obj=require('./shape');
 
 // declare class
-class Circle extends Shape {
+class Circle extends obj.Shape {
   constructor(color){
     super(color);
   }
